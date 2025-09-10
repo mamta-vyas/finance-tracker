@@ -79,15 +79,20 @@ DELETE	/api/transactions/:id	Delete transaction
 (Add screenshots of your app here)
 
 Home Page
+<img width="1354" height="476" alt="Screen Shot 2025-09-10 at 6 25 25 PM" src="https://github.com/user-attachments/assets/180cf3c7-07c6-49ac-8e81-7596e57b897e" />
 
 
 Add Transaction
+<img width="1355" height="712" alt="Screen Shot 2025-09-10 at 6 27 25 PM" src="https://github.com/user-attachments/assets/fc4a6ed9-5c90-42c6-b6a8-f0b9c2a6d949" />
 
 
 Edit Transaction
+<img width="1346" height="717" alt="Screen Shot 2025-09-10 at 6 26 39 PM" src="https://github.com/user-attachments/assets/9ed9abc6-596d-4a67-8699-153ef896fe09" />
+<img width="1349" height="474" alt="Screen Shot 2025-09-10 at 6 26 13 PM" src="https://github.com/user-attachments/assets/95c40041-1558-439e-9709-23278dc48b14" />
 
 
 Delete Confirmation
+<img width="1351" height="586" alt="Screen Shot 2025-09-10 at 6 26 48 PM" src="https://github.com/user-attachments/assets/1461c6fa-0dec-44c3-ade2-eb557fad470d" />
 
 
 🌐 Deployment (Optional)
