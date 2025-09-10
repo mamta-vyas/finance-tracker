@@ -1,4 +1,5 @@
 📌 README Template for MERN Personal Finance Tracker
+
 # 💰 MERN Personal Finance Tracker
 
 A simple **Personal Finance Tracker** built using the **MERN stack (MongoDB, Express, React, Node.js)**.  
@@ -37,7 +38,7 @@ finance-tracker/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/mern-finance-tracker.git
+git clone https://github.com/mamta-vyas/finance-tracker
 cd mern-finance-tracker
 
 2. Setup Backend
@@ -56,7 +57,7 @@ Start the backend:
 npm start
 
 
-👉 Runs at: http://localhost:5000/api/transactions
+👉 Runs at: https://finance-tracker-oe5e.onrender.com/api/transactions
 
 3. Setup Frontend
 cd frontend
@@ -64,7 +65,7 @@ npm install
 npm run dev
 
 
-👉 Runs at: http://localhost:5173
+👉 Runs at: https://finance-trackerappp.netlify.app/
 
 🔗 API Endpoints
 Method	Endpoint	Description

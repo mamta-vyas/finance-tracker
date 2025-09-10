@@ -9,12 +9,12 @@ const Delete = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/transactions/${id}`)
+    axios.get(`https://finance-tracker-oe5e.onrender.com/api/transactions/${id}`)
       .then(res => setTransaction(res.data));
   }, [id]);
 
   const handleDelete = async () => {
-    await axios.delete(`http://localhost:5000/api/transactions/${id}`);
+    await axios.delete(`https://finance-tracker-oe5e.onrender.com/api/transactions/${id}`);
     navigate("/");
   };
 

@@ -7,7 +7,7 @@ const Home = () => {
   const [transactions, setTransactions] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/transactions")
+    axios.get("https://finance-tracker-oe5e.onrender.com/api/transactions")
       .then(res => setTransactions(res.data));
   }, []);
 

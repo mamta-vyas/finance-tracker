@@ -11,7 +11,7 @@ const Add = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await axios.post("http://localhost:5000/api/transactions", form);
+    await axios.post("https://finance-tracker-oe5e.onrender.com/api/transactions", form);
     navigate("/");
   };
 

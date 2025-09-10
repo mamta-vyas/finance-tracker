@@ -9,7 +9,7 @@ const Edit = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/transactions/${id}`)
+    axios.get(`https://finance-tracker-oe5e.onrender.com/api/transactions/${id}`)
       .then(res => setForm(res.data));
   }, [id]);
 
@@ -17,7 +17,7 @@ const Edit = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await axios.put(`http://localhost:5000/api/transactions/${id}`, form);
+    await axios.put(`https://finance-tracker-oe5e.onrender.com/api/transactions/${id}`, form);
     navigate("/");
   };
 
